@@ -18,11 +18,11 @@ If this is the first time you've cloned this repository then run
 2. Create `.env` file from `.env.example` file
 
 ## Running
-`php public\sendTokens.php 0xB3F0c9d503104163537Dd741D502117BBf6aF8f1 2 500000000000000000`
+`php public/sendTokens.php 0xB3F0c9d503104163537Dd741D502117BBf6aF8f1 2 500000000000000000`
 
 ## Debugging
 1. Follow instructions at https://xdebug.org/wizard
    - On Windows, if not specified make sure to rename the DLL to exactly `php_xdebug.dll`.
 2. Add zend_extension = xdebug
 3. Start your debugger
-4. Run command `php -dxdebug.mode=debug -dxdebug.start_with_request=yes public\sendTokens.php 0xB3F0c9d503104163537Dd741D502117BBf6aF8f1 2 500000000000000000`
+4. Run command `php -dxdebug.mode=debug -dxdebug.start_with_request=yes public/sendTokens.php 0xB3F0c9d503104163537Dd741D502117BBf6aF8f1 2 500000000000000000`
