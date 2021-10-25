@@ -8,7 +8,7 @@ Search for information on the **ethereum nonce** to better understand the import
 ## Requirements
 1. Manually install PHP 7.x (one of the packages doesn't support 8.x yet).
 2. Uncomment `extension=gmp` in your php.ini file.
-3. Manually php composer from https://getcomposer.org/.
+3. Manually install php composer from https://getcomposer.org/.
 
 ## Inital Setup
 
