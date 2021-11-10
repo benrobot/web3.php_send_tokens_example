@@ -1,3 +1,11 @@
+## Files
+
+| Path                                                                     | Description                                                                                              |
+| ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| [public/sendTokens.php](public/sendTokens.php)                           | Example PHP code to show how to sign a transaction                                                       |
+| [resources/Erc777TokenAbiArray.json](resources/Erc777TokenAbiArray.json) | The ABI (Application Binary Interface) needed to interact with a smart contract                          |
+| [contracts/Erc777Token.sol](contracts/Erc777Token.sol)                   | An example of the solidity contract that was used to generate the ABI resources/Erc777TokenAbiArray.json |
+
 ## Waiting vs Not Waiting
 The `$transactionCount` obtained by calling `getTransactionCount()` is only accurate if ALL the previously submitted transactions have been mined.
 There's some code that waits for the transaction to be mined.
